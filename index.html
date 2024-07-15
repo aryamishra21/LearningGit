@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning GitHub</title>
 </head>
+
 <body>
     <h4>Git is a version control that lets you roll back all changes to previous version</h4>
     <p>Eg versions V1, V2,V3,V4</p>
     <p>Git checkout V3(will remove all changes from V4)</p>
-    <p>git init
-        git add README.md
+    <p>
+        …or create a new repository on the command line
+        echo "# LearningGit" >> README.md
+        git init
+        git add README.md(file name) or all(.)
         git commit -m "first commit"
         git branch -M main
         git remote add origin https://github.com/aryamishra21/LearningGit.git
-        git push -u origin main</p>
+        git push -u origin main
+        …or push an existing repository from the command line
+        git remote add origin https://github.com/aryamishra21/LearningGit.git
+        git branch -M main
+        git push -u origin main
+        git init</p>
     <p>git init</p>
     <p>git status</p>
     <p>to monitor file -> git add (file name) or git add . (for all files)</p>
 </body>
+
 </html>
